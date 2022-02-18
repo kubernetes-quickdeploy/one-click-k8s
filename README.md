@@ -2,7 +2,7 @@
 **Welcome to 1ckick Kubernetes World**
 Lets take a sneek peak on how we can install Kubernetes multi-master cluster using Ansible .
 
-<img width="45" alt="kube" src="https://user-images.githubusercontent.com/99710234/154668759-e1e0741e-abfb-4e11-85d5-248788b3b868.png">,<img width="46" alt="docker" src="https://user-images.githubusercontent.com/99710234/154668763-d854f715-7a0d-4097-9565-94359b831161.png">,<img width="136" alt="flannel" src="https://user-images.githubusercontent.com/99710234/154668766-e149986a-e922-4fd0-b51c-9dbd798d92cb.png">
+<img width="45" alt="kube" src="https://user-images.githubusercontent.com/99710234/154668759-e1e0741e-abfb-4e11-85d5-248788b3b868.png"> <img width="46" alt="docker" src="https://user-images.githubusercontent.com/99710234/154668763-d854f715-7a0d-4097-9565-94359b831161.png"> <img width="136" alt="flannel" src="https://user-images.githubusercontent.com/99710234/154668766-e149986a-e922-4fd0-b51c-9dbd798d92cb.png">
 
 ______________________________________________________________________________________________
 
