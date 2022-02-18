@@ -13,7 +13,7 @@ https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 
 **We are building the Kubernetes cluster on basis of following compeonents**
 
-1) Ubuntu server 18/20 LTS Versions 
+1) Ubuntu server 20.4 LTS Versions 
 2) Docker as container runtime
 3) Kubernetes orchestration of course :)
 4) Kubernetes Dashboard
