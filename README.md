@@ -1,6 +1,11 @@
 # 1click-kubernetes
-Welcome to Kubenernetes World
-Lets take a sneek peak on how we can install  1Click-Kubernetes using Ansible
+Welcome to 1ckick Kubenernetes World
+
+![41482054-47a3a702-70a2-11e8-9561-de51c5f71220](https://user-images.githubusercontent.com/99710234/154664081-0d3136a2-b3dd-4a96-8098-14322f1f8955.png)
+![Moby-logo](https://user-images.githubusercontent.com/99710234/154664098-3b44ccca-cbe7-4b4a-b1eb-a5a234468251.png)
+![images](https://user-images.githubusercontent.com/99710234/154664120-66b740f6-cdb3-4f16-a5ad-2b6fdb7774a4.png)
+
+Lets take a sneek peak on how we can install Kubernetes multi master cluster using Ansible
 
 We are using Ubuntu Server image 20 as master and worker nodes
 https://ubuntu.com/download/server
@@ -12,6 +17,6 @@ We are building Kubernets cluster on basis of following compeonents
 4) Flanneld for Networking
 5) calico for network policy and management 
 6) Prometheus
-7) Grafana![prometheus_logo_grey](https://user-images.githubusercontent.com/99710234/154662948-163459eb-9eab-45e8-8400-a5e1ece48977.svg)
+7) Grafana
 
  
