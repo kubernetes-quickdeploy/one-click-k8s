@@ -10,10 +10,12 @@ https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 1) Ubuntu server 18/20 LTS Versions 
 2) Docker as container runtime
 3) Kubernetes orchestration of course :)
-4) Flanneld for Networking
-5) calico for network policy and management 
-6) Prometheus
-7) Grafana
+4) Kubernetes Dashboard
+5) Flanneld for Networking
+6) calico for network policy management 
+7) Prometheus Monitoring
+8) Grafana Metrics
+
 
 
  
