@@ -1,5 +1,6 @@
 # 1click-kubernetes
-Hi , welcome to 1Click-Kubernetes
+Welcome to Kubenernetes World
+Lets take a sneek peak on how we can install  1Click-Kubernetes using Ansible
 
 We are using Ubuntu Server image 20 as master and worker nodes
 https://ubuntu.com/download/server
@@ -11,4 +12,4 @@ We are building Kubernets cluster on basis of following compeonents
 4) Flanneld for Networking
 5) calico for network policy and management 
 
-Welcome to Kubenernetes World 
+ 
