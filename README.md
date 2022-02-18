@@ -1,13 +1,15 @@
 # 1click-kubernetes
 **Welcome to 1ckick Kubernetes World**
-
 Lets take a sneek peak on how we can install Kubernetes multi-master cluster using Ansible .
+______________________________________________________________________________________________
 
-We are using Ubuntu Server image 20.4 for master and worker nodes .
+**Requirements**
+
+Ubuntu Server image 20.4 for master and worker nodes .
 https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 
-We are building Kubernets cluster on basis of following compeonents
-We are building 
+**We are building the Kubernetes cluster on basis of following compeonents**
+
 1) Ubuntu server 18/20 LTS Versions 
 2) Docker as container runtime
 3) Kubernetes orchestration of course :)
