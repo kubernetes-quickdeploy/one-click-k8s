@@ -6,14 +6,14 @@
 
 ______________________________________________________________________________________________
 
-**Requirements**
+**Pre-Requesties**
 
-Ubuntu Server image 20.4 for master and worker nodes .
-https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
+Ubuntu Server image 18.04 for master and worker nodes .
+https://mirror.ette.biz/ubuntu-releases/18.04.6/ubuntu-18.04.6-live-server-amd64.iso
 
 **We are building the Kubernetes cluster on basis of following compeonents**
 
-1) Ubuntu server 20.4 LTS Versions 
+1) Ubuntu server 18.04 LTS Versions 
 2) Docker as container runtime
 3) Kubernetes orchestration of course :)
 4) Kubernetes Dashboard
@@ -21,6 +21,18 @@ https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 6) calico for network policy management 
 7) Prometheus Monitoring
 8) Grafana Metrics
+
+**Installation Steps **
+
+* Get your vm's ready with unique ip and set hostnames as specified (or as your wish) .
+  master1
+  master2
+  slave1
+  slave2
+  
+ * 
+ 
+  
 
 
 
