@@ -25,10 +25,10 @@ https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 
 **Installation Steps **
 * Get your vm's ready with unique ip and set hostnames as specified (or as your wish) .
-  kubemaster1
-  kubemaster2
-  kubeslave1
-  kubeslave2
+kubemaster1
+kubemaster2
+kubeslave1
+kubeslave2
   
  * You need to be able to SSH into each of these nodes as root using the SSH key pair login .
  * 
