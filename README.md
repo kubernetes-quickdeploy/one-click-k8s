@@ -25,10 +25,10 @@ https://mirror.ette.biz/ubuntu-releases/18.04.6/ubuntu-18.04.6-live-server-amd64
 **Installation Steps **
 
 * Get your vm's ready with unique ip and set hostnames as specified (or as your wish) .
-  master1
-  master2
-  slave1
-  slave2
+  kubemaster1
+  kubemaster2
+  kubeslave1
+  kubeslave2
   
  * 
  
