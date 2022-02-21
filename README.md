@@ -8,13 +8,12 @@ ________________________________________________________________________________
 
 **Pre-Requesties**
 
-Ubuntu Server image 18.04/20.04 for master and worker nodes .
-https://mirror.ette.biz/ubuntu-releases/18.04.6/ubuntu-18.04.6-live-server-amd64.iso
+Ubuntu Server image 20.04 for master and worker nodes .
 https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 
 **We are building the Kubernetes cluster on basis of following compeonents**
 
-1) Ubuntu server 18.04/20.04 LTS Versions 
+1) Ubuntu server 20.04 LTS Versions 
 2) Containerd as runtime
 3) Kubernetes orchestration of course :)
 4) Kubernetes Dashboard
