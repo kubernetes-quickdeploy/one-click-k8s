@@ -8,7 +8,7 @@ ________________________________________________________________________________
 
 **Pre-Requesties**
 
-Ubuntu Server image 18.04 for master and worker nodes .
+Ubuntu Server image 18.04/20.04 for master and worker nodes .
 https://mirror.ette.biz/ubuntu-releases/18.04.6/ubuntu-18.04.6-live-server-amd64.iso
 https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 
@@ -23,12 +23,13 @@ https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 7) Prometheus Monitoring
 8) Grafana for Metrics
 
-**Installation Steps **
+**Installation Steps**
+
 * Get your vm's ready with unique ip and set hostnames as specified (or as your wish) .
 kubemaster1
 kubemaster2
-kubeslave1
-kubeslave2
+kubeworker1
+kubeworker2
   
  * You need to be able to SSH into each of these nodes as root using the SSH key pair login .
  * 
