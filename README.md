@@ -14,22 +14,22 @@ https://mirror.ette.biz/ubuntu-releases/18.04.6/ubuntu-18.04.6-live-server-amd64
 **We are building the Kubernetes cluster on basis of following compeonents**
 
 1) Ubuntu server 18.04 LTS Versions 
-2) Docker as container runtime
+2) Containerd as runtime
 3) Kubernetes orchestration of course :)
 4) Kubernetes Dashboard
 5) Flanneld for Networking
 6) calico for network policy management 
 7) Prometheus Monitoring
-8) Grafana Metrics
+8) Grafana for Metrics
 
 **Installation Steps **
-
 * Get your vm's ready with unique ip and set hostnames as specified (or as your wish) .
   kubemaster1
   kubemaster2
   kubeslave1
   kubeslave2
   
+ * You need to be able to SSH into each of these nodes as root using the SSH key pair login .
  * 
  
   
