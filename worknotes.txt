@@ -2,3 +2,7 @@
 NAME                                            STATUS   ROLES    AGE     VERSION               INTERNAL-IP      EXTERNAL-IP      OS-IMAGE         KERNEL-VERSION                  CONTAINER-RUNTIME
 ip-192-168-58-104.ap-south-1.compute.internal   Ready    <none>   6m24s   v1.18.20-eks-c9f1ce   192.168.58.104   15.206.164.162   Amazon Linux 2   4.14.262-200.489.amzn2.x86_64   docker://20.10.7
 ip-192-168-71-166.ap-south-1.compute.internal   Ready    <none>   6m24s   v1.18.20-eks-c9f1ce   192.168.71.166   13.233.130.237   Amazon Linux 2   4.14.262-200.489.amzn2.x86_64   docker://20.10.7
+
+kubectl label node slave2 node-role.kubernetes.io/worker=worker
+
+swapoff -a
