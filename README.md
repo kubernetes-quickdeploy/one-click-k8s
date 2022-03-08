@@ -32,7 +32,7 @@ kubeworker2
   
  * You need to be able to SSH into each of these nodes as root using the SSH key pair login .
  Copy git repository to local folder .
- * git clone https://github.com/kubernetes-quickdeploy/kubernetes.git
+ * git clone https://github.com/kubernetes-quickdeploy/kubernetes.git /home/kubernetes
  
   
 
