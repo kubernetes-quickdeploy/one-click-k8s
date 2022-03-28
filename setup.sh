@@ -69,8 +69,4 @@ sudo apt-mark hold kubelet kubeadm kubectl
 
 ####  Perform same steps on both worker nodes ####
 
-Clear
-
-sleep 2
-
 echo " All Set , Good Job :) "
