@@ -67,4 +67,6 @@ sudo apt-get install -y kubelet=1.23.0-00 kubeadm=1.23.0-00 kubectl=1.23.0-00
 #### Turn off automatic updates to kubernetes packages ####
 sudo apt-mark hold kubelet kubeadm kubectl
 
-*****  Perform same steps on both worker nodes *****
+####  Perform same steps on both worker nodes ####
+
+echo "Excellent Good Job "
