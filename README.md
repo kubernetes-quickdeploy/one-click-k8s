@@ -26,10 +26,10 @@ https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 
 * Get your vm's ready with unique ip and set hostnames as specified (or as your wish) .
 
-k8s-control1.example.com
-k8s-control2.example.com
-k8s-worker1.example.com
-k8s-worker2.example.com
+ * k8s-control1.example.com
+ * k8s-control2.example.com
+ * k8s-worker1.example.com
+ * k8s-worker2.example.com
   
 
  
