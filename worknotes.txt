@@ -6,3 +6,5 @@ ip-192-168-71-166.ap-south-1.compute.internal   Ready    <none>   6m24s   v1.18.
 kubectl label node slave2 node-role.kubernetes.io/worker=worker
 
 swapoff -a
+
+kubectl -n kubernetes-dashboard edit service kubernetes-dashboard
