@@ -1,7 +1,10 @@
-#### ssh cloud_user@<PUBLIC_IP_ADDRESS> ####
-Install Packages
-Log into the Control Plane Node (Note: The following steps must be performed on all three nodes.).
-Create configuration file for containerd:
+#!/bin/sh/
+
+#### ssh user@<IP_ADDRESS> ####
+### Install Packages ###
+## Log into the Control Plane Node and Worker node to finish this step (Note: The following steps must be performed on all three nodes.) ##
+
+#### Create configuration file for containerd ####
 
 cat <<EOF | sudo tee /etc/modules-load.d/containerd.conf
 overlay
