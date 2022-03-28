@@ -11,6 +11,9 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ### Install calico ###
 kubectl apply -f https://docs.projectcalico.org/manifests/calico.yaml
 
+
+
 ### Check status of the control plane node ###
 kubectl get nodes
 
+kubeadm token create --print-join-command
