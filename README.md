@@ -29,7 +29,13 @@ Get your server's ready with unique ip and set hostnames as specified (or as you
  * k8s-control2.example.com
  * k8s-worker1.example.com
  * k8s-worker2.example.com
+ 
+  ** Make sure interenet is accesibe to all the systems's .
   
+  **Instaltaion Steps**
+  Step 1 
+  Download Git Deploy folder to all four instance .
+  Wget -p https://github.com/kubernetes-quickdeploy/kubernetes/tree/main/deploy
 
  
  
