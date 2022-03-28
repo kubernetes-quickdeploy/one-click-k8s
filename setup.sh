@@ -1,4 +1,4 @@
-#!/bin/sh/
+#!/bin/bash
 
 #### ssh user@<IP_ADDRESS> ####
 ### Install Packages ###
@@ -69,4 +69,8 @@ sudo apt-mark hold kubelet kubeadm kubectl
 
 ####  Perform same steps on both worker nodes ####
 
-echo "Excellent Good Job "
+Clear
+
+sleep 2
+
+echo " All Set , Good Job :) "
