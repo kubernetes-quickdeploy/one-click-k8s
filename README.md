@@ -18,21 +18,21 @@ https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 3) Kubernetes orchestration of course :)
 4) Kubernetes Dashboard
 5) Flanneld for Networking
-6) calico for network policy management 
+6) Calico for network policy management 
 7) Prometheus Monitoring
 8) Grafana for Metrics
 
 **Installation Steps**
 
 * Get your vm's ready with unique ip and set hostnames as specified (or as your wish) .
-kubemaster1
-kubemaster2
-kubeworker1
-kubeworker2
+
+k8s-control1.example.com
+k8s-control2.example.com
+k8s-worker1.example.com
+k8s-worker2.example.com
   
- * You need to be able to SSH into each of these nodes as root using the SSH key pair login .
- Copy git repository to local folder .
- * git clone https://github.com/kubernetes-quickdeploy/kubernetes.git /home/kubernetes
+
+ 
  
   
 
