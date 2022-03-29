@@ -31,9 +31,27 @@ Get your server's ready with unique ip and set hostnames as specified (or as you
   ** Make sure interenet is accesibe to all the systems's .
   
   **Instaltaion Steps**
-  Step 1 
-  Download Git Deploy folder to all four instance .
+
+  *  Download Git Deploy folder to all four instance .
   Wget -p https://github.com/kubernetes-quickdeploy/kubernetes/tree/main/deploy
+
+  *  Run k8s-core.sh script on all four nodes both on control node and worker node .
+     ./k8s-core.sh
+  *  Run k8s-controlplane.sh script on two control nodes
+       #./k8s-controlplane.sh
+     Example kubeadm join commands:
+        For control-plane nodes:
+        sudo kubeadm join --discovery-token abcdef.1234567890abcdef --discovery-token-ca-cert-hash sha256:1234..cdef --control-plane 1.2.3.4:6443
+  *  Run output of token using kubeadm join command in worker nodes .
+     Example kubeadm join commands:
+          For worker nodes
+        sudo kubeadm join --discovery-token abcdef.1234567890abcdef --discovery-token-ca-cert-hash sha256:1234..cdef <IP-ADDRESS>:6443
+  *  Once Control plane and worker nodes are in ready state 
+     Kubectl get nodes 
+  *  Run k8s-pod-stack.sh to install Calico, Kuberenets dashboard , Prometheus , Grafana containers 
+       #./k8s-pod-stack.sh
+   
+#####  **ALL SET , YOU ARE HAVE WORKING KUBERENETS CLUSTER WITH MULTI-NODE CONTROL PLAN** #####
 
  
  
