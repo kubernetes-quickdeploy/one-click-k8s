@@ -1,4 +1,4 @@
-# 1click-kubernetes
+# One click-kubernetes
 **Welcome to 1ckick Kubernetes World** , Lets take a sneek peak on how we can install Kubernetes multi-master cluster using Ansible .
 
 
