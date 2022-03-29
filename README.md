@@ -6,11 +6,6 @@
 
 ______________________________________________________________________________________________
 
-**Pre-Requesties**
-
-Ubuntu Server image 20.04 for master and worker nodes .
-https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
-
 **We are building the Kubernetes cluster on basis of following compeonents**
 
 1) Ubuntu server 20.04 LTS Versions 
@@ -22,7 +17,10 @@ https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 7) Prometheus Monitoring
 8) Grafana for Metrics
 
-**Requirements before Deploy**
+**Pre-Requesties**
+
+Ubuntu Server image 20.04 for master and worker nodes .
+https://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso
 
 Get your server's ready with unique ip and set hostnames as specified (or as your wish) .
  * k8s-control1.example.com
