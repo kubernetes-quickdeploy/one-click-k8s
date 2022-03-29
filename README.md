@@ -51,7 +51,7 @@ Get your server's ready with unique ip and set hostnames as specified (or as you
   *  Run k8s-pod-stack.sh to install Calico, Kuberenets dashboard , Prometheus , Grafana containers 
        #./k8s-pod-stack.sh
    
-#####  **ALL SET , YOU ARE HAVE WORKING KUBERENETS CLUSTER WITH MULTI-NODE CONTROL PLAN** #####
+#####  **ALL SET , YOU HAVE WORKING KUBERENETES CLUSTER WITH MULTI-NODE CONTROL PLAN** #####
 
  
  
