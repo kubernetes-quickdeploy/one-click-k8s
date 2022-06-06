@@ -39,7 +39,7 @@ Get your server's ready with unique ip and set hostnames as specified (or as you
   unzip main.zip
   
   * assign executable permission to deploy folder
-  chown +x /one-click-k8s-main/deploy/*
+  chmod +x /one-click-k8s-main/deploy/*
 
 *  Run k8s-core.sh script on all four nodes both on control node and worker node .
      ./k8s-core.sh
