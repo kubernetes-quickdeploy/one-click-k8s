@@ -55,7 +55,7 @@ Get your server's ready with unique ip and set hostnames as specified (or as you
  **  Once Control plane and worker nodes are in ready state 
      Kubectl get nodes 
  **  Run k8s-pod-stack.sh to install Calico, Kuberenetes dashboard , Prometheus , Grafana 
-     ./k8s-pod-stack.sh
+     #./k8s-pod-stack.sh
    
 #####  **ALL SET , YOU HAVE WORKING KUBERENETES CLUSTER WITH MULTI-NODE CONTROL PLAN** #####
 
