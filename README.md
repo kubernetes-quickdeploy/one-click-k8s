@@ -33,9 +33,12 @@ Get your server's ready with unique ip and set hostnames as specified (or as you
   **Instaltaion Steps**
 
   *  Download Git Deploy folder to all four instance .
-  Wget -p https://github.com/kubernetes-quickdeploy/kubernetes/tree/main/deploy
+  sudo wget https://github.com/kubernetes-quickdeploy/one-click-k8s/archive/refs/heads/main.zip
+  
+  * Unzip the downloaded 
+  unzip main.zip
 
-  *  Run k8s-core.sh script on all four nodes both on control node and worker node .
+*  Run k8s-core.sh script on all four nodes both on control node and worker node .
      ./k8s-core.sh
   *  Run k8s-controlplane.sh script on two control nodes
        #./k8s-controlplane.sh
